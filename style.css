@@ -1,0 +1,38 @@
+
+/* CSS reset*/ 
+* { padding:0; margin:0;}
+
+
+header {
+    width:20%;
+    padding :10px;
+    float:right;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li{
+    margin:0 auto;
+}
+
+#middle-page{
+    position:absolute;
+    top:20%;
+    left:43%;
+   height:200px;
+   width:800px;
+   
+}
+
+#search-bar{
+   margin: 0 auto;
+    position:absolute;
+   top:130px;
+   right:355px;
+   width:600px;
+   height:40px;
+   border-radius: 20px;
+   border-style: solid;
+}
